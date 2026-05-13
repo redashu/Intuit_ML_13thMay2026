@@ -39,3 +39,7 @@
 ### Using data hanlders 
 
 <img src="data5.png">
+
+### converting category values into numbers using label encoders
+
+<img src="data6.png">
