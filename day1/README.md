@@ -31,3 +31,11 @@
 ### Loading and handling data using data frames 
 
 <img src="data3.png">
+
+### Data Quality Issues 
+
+<img src="data4.png">
+
+### Using data hanlders 
+
+<img src="data5.png">
