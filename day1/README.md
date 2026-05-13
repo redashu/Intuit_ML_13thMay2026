@@ -22,3 +22,12 @@
 
 
 <img src="data1.png">
+
+### Data types we generate 
+
+<img src="data2.png">
+
+
+### Loading and handling data using data frames 
+
+<img src="data3.png">
