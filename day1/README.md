@@ -13,3 +13,7 @@
 
 <img src="ai3.png">
 
+
+###  checking info in Google colab 
+
+<img src="lab2.png">
