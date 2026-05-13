@@ -58,3 +58,77 @@ Example:
 Male, Female, Male, missing
 Mode = Male
 ```
+
+Mostly used for categorical columns.
+
+## Strategies to Handle Missing Values
+
+This is the main conceptual section.
+
+### Strategy 1: Remove Rows
+
+Drop missing records:
+
+```python
+df.dropna()
+```
+
+Use when:
+
+- few missing records
+- dataset is large enough
+
+Problem:
+
+If too many rows are removed, it can cause:
+
+- data loss
+- bias
+- poor model training
+
+Important real-world caution.
+
+### Strategy 2: Remove Columns
+
+Example: if 90% values are missing, the column may be useless.
+
+```python
+df.drop(columns=['column_name'])
+```
+
+### Strategy 3: Fill Missing Values (Imputation)
+
+Most common industry approach.
+
+#### Numerical Columns
+
+Mean imputation:
+
+```python
+df['Age'].fillna(df['Age'].mean())
+```
+
+Use when:
+
+- distribution is roughly normal
+
+Median imputation:
+
+```python
+df['Salary'].fillna(df['Salary'].median())
+```
+
+Best for:
+
+- skewed data
+- outliers
+
+Very common in industry.
+
+#### Categorical Columns
+
+Mode imputation:
+
+```python
+df['Gender'].fillna(df['Gender'].mode()[0])
+```
