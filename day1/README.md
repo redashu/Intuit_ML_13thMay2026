@@ -16,7 +16,7 @@
 
 ###  checking info in Google colab 
 
-<img src="lab2.png">
+<img src="lab1.png">
 
 ### Data preparation for ML training 
 
