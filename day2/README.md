@@ -7,3 +7,7 @@
 ### ML classes / type / pattern
 
 <img src="ml2.png">
+
+### Final data split into training & testing phase 
+
+<img src="ml3.png">
